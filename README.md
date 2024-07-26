@@ -26,16 +26,20 @@ We’ll build Tinkergram, an Instagram clone with features including user authen
 
 Open a terminal or command prompt and navigate to your Desktop. Execute the following commands to set up a new Laravel project:
 
+```bash
 cd Desktop
 laravel new tinkergram
+```
 
 #### 2. Install Bootstrap Scaffolding
 Navigate to your project directory and install Laravel UI for authentication scaffolding:
 
+```bash
 cd tinkergram
 composer require laravel/ui
 npm install
 npm run dev
+```
 
 #### 3. Setting Up MySQL
 You’ll need a MySQL database for this project. Start MySQL on your WAMP/MAMP server. In phpMyAdmin, create a new database for Tinkergram.
@@ -49,14 +53,18 @@ Open your Laravel project in Visual Studio Code. Locate and open the .env file i
 #### 5. Start Your Laravel Application
 Ensure you are in the project directory and start the Laravel development server:
 
+```bash
 php artisan serve
+```
 
 Visit http://localhost:8000 in your browser. You should see the Login and Register buttons, thanks to the authentication scaffold.
 
 #### 6. Database Migration
 If you encounter an error when registering an account, it’s likely due to missing tables in your database. Run the migrations to create the necessary tables:
 
+```bash
 php artisan migrate
+```
 
 Alternatively, you can use phpMyAdmin to run migrations.
 
@@ -72,8 +80,10 @@ In Tinkergram, users will be able to:
 # How to Use
 #### 1. Clone the Repository:
 
+```bash
 Clone the repository to your local machine using:
-gh repo clone YOUR_GITHUB_USERNAME/smu-pcweb5
+gh repo clone GNID-DEV/smu-pcweb5
+```
 
 #### 2.Set Up Laravel:
 
