@@ -22,6 +22,10 @@ We’ll build Tinkergram, an Instagram clone with features including user authen
 
 ### Tinkergram Part 1: Setting Up Laravel, Databases, and Authentication
 
+**Tinkergram Project Youtube Demo**: https://youtu.be/KhLP3rLeSks
+
+**Tinkergram Challenge Project Youtube Demo**: https://youtu.be/RZrG5uMPT3k
+
 #### 1. Create a New Laravel Project
 
 Open a terminal or command prompt and navigate to your Desktop. Execute the following commands to set up a new Laravel project:
